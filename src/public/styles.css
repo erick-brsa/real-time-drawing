@@ -1,0 +1,59 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+#canvas {
+    display: block;
+}
+
+.content {
+    position: relative;
+}
+
+.colors {
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+}
+
+.delete {
+    background-image: url(https://cdn-icons.flaticon.com/png/512/3687/premium/3687412.png?token=exp=1641855036~hmac=6891c759f898d1c2c4fb785f688c79ff);
+    background-size: cover;
+}
+
+.btn {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: 0;
+outline: none;
+}
+
+.btn_1 {
+    background: red;
+}
+
+.btn:nth-child(2) {
+    background: blue;
+}
+
+.btn:nth-child(3) {
+    background: yellowgreen;
+}
+
+.btn:nth-child(4) {
+    background: yellow;
+}
+
+.btn:nth-child(5) {
+    background: black;
+}
+
+#users {
+    position: absolute;
+    top: 5px;
+    padding: 10px;
+    margin-left: 80%;
+    color: green;
+}
